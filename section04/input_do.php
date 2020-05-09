@@ -30,4 +30,4 @@
 <a href="index.php">戻る</a>
 </main>
 </body>    
-</html> 
+</html>  

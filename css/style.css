@@ -9,20 +9,21 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 300px;
-  height: 100vh;
-  background-color: #7CA4D7
+  width: 100%;
+  background-color: #7CA4D7;
+  padding: 30px 0;
 }
 header h1 {
-  font-size: 100%;
-  margin-top: 30px;
+  font-size:24px ;
+  color: #fff;
+  font-weight: bold;
 }
 header h1 span {
   display: block;
 }
 main {
-  margin-left: 300px;
   padding: 30px;
+  margin-top: 100px;
 }
 main h2 {
   font-size: 120%;
@@ -64,6 +65,11 @@ article {
   border-radius : 5px ;
   color: #fff;
   
+}
+.note {
+  color: red;
+  margin-top: 10px;
+  display:block;
 }
 
 .post__button:hover {

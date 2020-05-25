@@ -1,9 +1,6 @@
 <?php include("head.html"); ?>
 <body>
-<header>
-<h1 class="font-weight-normal">PHP</h1>    
-</header>
-
+<?php include("header.html"); ?>
 <main>
 <h2>Practice</h2>
 <pre>

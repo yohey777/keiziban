@@ -77,3 +77,8 @@ article {
   text-decoration: none;
   opacity: 0.8;
 }
+
+.post .post__name {
+  display: block;
+  margin-bottom: 20px;
+}

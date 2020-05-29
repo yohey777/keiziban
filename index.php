@@ -1,11 +1,11 @@
 <?php include("head.html"); ?>
-
+<?php include("component/makeid.php"); ?>
 
 <body>
 <?php include("header.html"); ?>
 
 <main>
-<h2>掲示板</h2>
+<h2>高校サッカー掲示板トップ</h2>
 <?php
 require('dbconnect.php');
 
@@ -23,9 +23,12 @@ $memos->execute();
 
 <article>
     <?php while ($memo = $memos->fetch()): ?>
-        <p><?php print(mb_substr($memo['memo'], 0, 50)); ?></p>
-        <time><?php print($memo['created_at']); ?></time>
-        <hr>
+      <span><?php print($memo['id']); ?></span>
+      <span>名前:<?php print($memo['name']); ?></span>
+      <time><?php print($memo['created_at']); ?></time>
+      <span>id:<?php print($id); ?></span>
+      <p><?php print(mb_substr($memo['memo'], 0, 50)); ?></p>
+      <hr>
     <?php endwhile; ?>
 
     <?php if ($page >= 2): ?>

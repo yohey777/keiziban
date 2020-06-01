@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@import url(bootstrap.min.css);
+body,
+pre {
+  font-family: "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, sans-serif;
+}
+
+header {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #7CA4D7;
+  padding: 30px 0;
+}
+
+header h1 span {
+  font-size: 24px;
+  color: #fff;
+  font-weight: bold;
+}
+
+main h2 img {
+  padding: 30px;
+  margin-top: 100px;
+}
+
+pre {
+  min-height: 100px;
+  padding: 10px;
+  background-color: #e3f2ff;
+  box-shadow: 1px 1px 5px #eee;
+  width: 500px;
+}
+
+hr {
+  border-color: #7CA4D7;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+time {
+  color: #999;
+  font-size: 80%;
+}
+
+article {
+  margin-top: 30px;
+}
+
+.post__button {
+  margin: 30px auto;
+  background: #3dacf1;
+  text-align: center;
+  display: block;
+  padding: 10px 30px;
+  width: 150px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.note {
+  color: red;
+  margin-top: 10px;
+  display: block;
+}
+
+.post__button:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.post .post__name {
+  display: block;
+  margin-bottom: 20px;
+}

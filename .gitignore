@@ -2,3 +2,5 @@
 /node_modules
 /.sass-cache
 /memo
+/package.json
+/package-lock.json
